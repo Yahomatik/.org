@@ -85,6 +85,11 @@ border: 0;
      max-width: 1100px;
      margin: auto;
           padding: 1.5rem 2rem;
+          display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-weight: 600;
    }
    
    #home #logo {
@@ -121,7 +126,7 @@ border: 0;
    header .header-content img {
      max-width: 1050px;
       padding:5rem 2rem 5;
-width: 400px;
+width: 100%;
 
 
      
@@ -374,7 +379,8 @@ color: darkred;
   color: #fff;
   padding: 1rem 0;
   text-align: center;
- margin-top:250px;
+ margin-top:50%;
+ height: 100%;
 }
 /*taplet  responseve*/
 body{
