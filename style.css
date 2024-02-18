@@ -274,28 +274,29 @@ width: 100%;
     background: #00F4AB0C;
       height: 100vh;
         padding: 6rem 0;
-
-
   }
     #services{
       background: #00F4AB0C;
       height: 100%;
     }
   #services .rww{
-       
-
-color: red;
+color: #1AFF00;
     margin-left: 0;
     padding: 15px 20px 50px;
           box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-
     font-size: 25px
   }
- 
+  #services .no h1{
+    color: red;
+  }
+   #services .no a{
+     color: black;
+   }
+
   #services .rww a{
-    color: black;
-      background: #FFFFFF5E;
-    
+    color: #FFFFFF;
+        background: linear-gradient(102deg ,#FF00E4,#4D81FF);
+    border-radius: 25px;
   }
   
   #services .heading {
